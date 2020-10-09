@@ -16,7 +16,7 @@
     font-family: 'Piazzolla', serif;
     background-color: #ffffff;
 }
-/* ------- HEADER ----------*/ 
+/* ------- HEADER Imported ----------*/ 
 
 /* -------- main section----------*/
 
@@ -57,20 +57,6 @@ hr{
    border-radius: 10px;
  }
 
-.content>p{
-
-}
-
-.icon{
-   color: mediumpurple;
-   font-size: 20px;
-   padding: 5px;
-}
-.icon:hover{
-   cursor: pointer;
-   color: #E8F8F5;
-   background-color: cadetblue;
-}
 
 a:link, a:visited, a:hover, a:active{
    text-decoration: none !important;
