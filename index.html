@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/icon1.png">
+    <script src="https://kit.fontawesome.com/a5168b3195.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="styles.css"> 
     <title> |BLOGGY| </title>
 </head>
@@ -14,9 +15,10 @@
         1- NAVBAR 
         2- Header Image -->
         <nav>
-           <h1> Home </h1> 
-           <h2> Latest Blog </h2> 
+           <h1> <i class="fas fa-home"></i>  Home </h1> 
+           <h2> <a href="post.html">Latest Blog </a></h2> 
            <h2> Contact me </h2> 
+           <h1 id='name'> BLOGGY <img src="images/logo.png"> </h1>
         </nav>
         <section >
             <img src="images/writer.jpg" id="header-img" >
@@ -24,25 +26,32 @@
         </section>
     </header>
 
-    <section>
+    <section id='main'>
         <!-- TO DO:
         1- BLOGS CARDS -->
         <div class="card"> 
             <div>
                 <img src="images/study.jpg" class="image">
             </div>
-            <div id='first-content'>
-            </h4>  How Do I study?
-                    sharing my study plan! </h4>
+
+            <hr>
+
+            <div class='content'>
+            <p> Let's Talk About Time Managment </p>
+            <i class="fas fa-angle-right"> <a href="post.html">Read More</a> </i> 
             </div>
         </div>
 
         <div class="card">
-            <div >
+            <div>
                 <img src="images/web.jpg" class="image">
             </div>
-            <div id='second-content'>
-              <h4>  Web Development Roadmap!</h4>
+
+            <hr>
+
+            <div class='content'>
+              <p>  Web Development Roadmap!</p>
+              <i class="fas fa-angle-right"><a href="post.html">Read More</a> </i>
             </div>
         </div>
 
@@ -50,8 +59,12 @@
             <div >
                 <img src="images/movie.jpg" class="image">
             </div>
-            <div class="image">
-               <h4> List of Movies I'd recommend</h4> 
+
+            <hr>
+
+            <div class="content">
+               <p>List of Movies I'd recommend </p> 
+               <i class="fas fa-angle-right"> <a href="post.html">Read More</a></i>
             </div> 
         </div>
 
@@ -59,8 +72,12 @@
             <div>
                 <img src="images/self-introduction.jpg" class="image">
             </div>
-            <div id='fourth-content'>
-              <h4> Get TO Know me better!</h4> 
+
+            <hr>
+
+            <div class='content'>
+              <p> Get TO Know me better! </p>  
+              <i class="fas fa-angle-right"><a href="post.html">Read More</a></i>
             </div>
         </div>
 
@@ -69,7 +86,8 @@
     <footer>
         <!-- TO DO:
          1- ALL RIGHT RESERVED -->
-         &copy; All rights reserved 
+         <p>contact me: ralshowmer(at)gmail.com </p>
+        </p> &copy; All rights reserved </p>
     </footer>
 </div> <!-- end Container-->
 </body>

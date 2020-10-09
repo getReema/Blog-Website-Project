@@ -1,6 +1,3 @@
- /* *{
-    border: solid 2px red;
-}  */
 
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300;400;500;600;700&display=swap');
 
@@ -61,65 +58,65 @@ nav>h2:hover{
     border-bottom: #9370db 5px solid;
 
 }
-/* -------- main section----------*/
 
 #main{
     grid-area: sec;
+    margin: 3px 20px 2px 20px;
+    background-color:#F5EEF8;
+}
+
+/* .post{
     display: flex;
-    flex-direction: row;
-    justify-items: flex-start;
-    align-items: stretch;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-items: flex-start;
+    align-items:center;
+    list-style: none;
+} */
+.title>h3{
+    font-size: 40px;
+    text-align: center;
 }
-
-.card{
-   background-image: linear-gradient(#D2B4DE, #ffffff, #ffffff, #ffffff); 
-   width: 400px;
-   height: 450px;
-   border-radius: 10px;
-   border: #ffffff solid 2px;
-   margin: 20px;
-   text-align: center;
-   font-size:20px;
-   color: #000000;
-   font-family: 'Piazzolla', serif;
-   
-}
-
-.image{
-   width:350px;
-   height: 300px;
-   border-radius: 10px;
-   margin: 10px;
-   border: #ffffff 3px solid;
-}
-
 hr{
-   margin: 20px;
-   border-top: mediumpurple 3px solid;
-   border-radius: 10px;
- }
+    margin: 1px;
+    border-top: #9370db  3px solid;
+    border-radius: 10px;
+  }
 
-.content>p{
-
+#info{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 10px 0px ;
+    
 }
 
-.icon{
-   color: mediumpurple;
-   font-size: 20px;
-   padding: 5px;
+.author-wrapper{
+    border: 3px solid #ffffff;
+    margin: 3px 20px 3px 20px;
+    width: 90%;
 }
-.icon:hover{
-   cursor: pointer;
-   color: #E8F8F5;
-   background-color: cadetblue;
+#avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    border:3px solid #fff;
+}
+#avatar-box{
+    
+}
+#writer{
+    font-size: 30px;
+    text-align: center;
+}
+#bio{
+    margin: 3px;
+    font-size: 20px;
+    text-align: center;
 }
 
-a:link, a:visited, a:hover, a:active{
-   text-decoration: none !important;
-}
-
-/*-----footer------*/ 
 
 footer{
     grid-area: ft;
@@ -128,30 +125,3 @@ footer{
     border-radius: 3px;
     text-align: center;  
 }
-
-
-
-  /* #first-img{
-
-} */
-
-
-/* #header-img{
-    background-image: url("images/writer.jpg");
-    background-size: 700px;
-    width: 100%;
-    height: 200px;
-    border: 2px solid;
-    color: pink; */
-    
-    /* background-repeat: no-repeat; 
-    background-position: center;
-    
-    z-index: -1;
-    margin: auto;
-    background-position: right;
-    height: 300px;
-    width: 100%;
-    border-radius: 3%; }*/ 
-    
-    
