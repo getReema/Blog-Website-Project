@@ -1,6 +1,6 @@
 
-@import "Blog-Website-Project/styles/footer.css";
-@import "styles/footer.css";
+@import 'header.css';
+@import 'footer.css' ;
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300;400;500;600;700&display=swap');
 
 *  {
