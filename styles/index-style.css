@@ -34,12 +34,11 @@
 }
 
 .card{
-   background-image: linear-gradient(#D2B4DE, #ffffff, #ffffff, #ffffff); 
    width: 400px;
    height: 450px;
    border-radius: 10px;
-   border: #ffffff solid 2px;
-   margin: 20px;
+   border: rgb(202, 201, 201) solid 1px;
+   margin: 10px 15px 20px 15px;
    text-align: center;
    font-size:20px;
    color: #000000;
@@ -64,8 +63,12 @@ hr{
 
 a:link, a:visited, a:hover, a:active{
    text-decoration: none !important;
+   font-weight: normal;
 }
-
+.caption{
+   font-size: 20px;
+   font-style: normal;
+}
 /*-----footer------*/ 
 
 
