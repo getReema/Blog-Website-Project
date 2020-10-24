@@ -65,7 +65,6 @@ hr{
     text-align: center;
 }
 .post-content>p{
-    font-size: 15px;
     color: #000000;
     text-align: center;
     overflow: scroll;
@@ -105,3 +104,27 @@ hr{
     margin: 0px 5px 0px 5px;
     padding-right: 20px;
 }
+
+.starting-statment{
+margin: 10px 10px 10px 10px;
+font-size: 29px;
+font-weight: bold; 
+}
+.regular-statments{
+    font-size: 15px;
+    font-style: normal;
+}
+
+.quote  {
+    font-size: 20px;
+    margin: 10px 15px 5px 15px;
+    text-align: center;
+    display: block;
+    font-style:italic ;
+}
+
+.important-statment {
+    font-size: 17px;
+    text-decoration: underline;
+
+} 
