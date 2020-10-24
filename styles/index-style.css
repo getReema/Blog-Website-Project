@@ -1,7 +1,11 @@
 
+@import "Blog-Website-Project/styles/footer.css";
+@import "styles/footer.css";
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300;400;500;600;700&display=swap');
-@import url('header.css');
-@import url('footer.css');
+
+*  {
+   border: red 2px soild !important; 
+}
 
 .Container{ 
     display: grid;
